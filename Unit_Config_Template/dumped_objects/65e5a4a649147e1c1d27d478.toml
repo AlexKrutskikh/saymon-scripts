@@ -1,0 +1,39 @@
+[object]
+id = "65e5a4a649147e1c1d27d478"
+name = "CPU"
+class_id = 4
+child_ids = []
+child_link_ids = []
+child_ref_ids = []
+owner_id = ""
+parent_id = [
+    "65e5a49f49147e1c1d27d46b",
+]
+discovery_id = "10.0.2.15-CPU"
+client_data = ""
+state_id = 4
+tags = []
+background = ""
+created = 1709548710433
+geoposition = []
+geopositionRadius = ""
+last_state_update = 1710231216009
+manual_state = ""
+operations = "[]"
+updated = 1709548710428
+weight = 1
+
+[[object.properties]]
+name = "AgentId"
+type_id = 8
+value = "65e5a4a149147e1c1d27d471"
+id = "65e5a4a649147e1c1d27d477"
+
+[state-conditions]
+conditions = "[{'condition': {'_formula': {'definition': '{{averageCpuLoad.oneMinuteAverageLoad}} / {{cpuInformation.totalCores}}', 'value': '<=0.8'}}, 'state': 3}, {'condition': {'_formula': {'definition': '{{averageCpuLoad.oneMinuteAverageLoad}} / {{cpuInformation.totalCores}}', 'value': '>0.8'}}, 'state': 4}]"
+
+[stat-rules]
+rules = " "
+
+[state-triggers]
+triggers = " "
