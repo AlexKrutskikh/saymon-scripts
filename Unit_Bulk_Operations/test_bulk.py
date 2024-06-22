@@ -1,4 +1,5 @@
 import pandas as pd
+import os
 
 # Прочитаем CSV файл в DataFrame
 file_path = './reports/df_result_sql.csv'
