@@ -11,4 +11,4 @@ for строка in df_result_sql.iterrows():
     print(f"service_group: {строка[1]['service_group']}")
     print(f"name: {строка[1]['name']}")
     print(f"id: {строка[1]['id']}")
-    print('-' * 20)  # Разделитель для удобства чтения вывода
+
