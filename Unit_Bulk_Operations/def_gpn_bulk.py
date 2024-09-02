@@ -18,7 +18,7 @@ import re
 import laim_session_config_gpn as ls
 ####################################################################
 
-import sheepSaymon
+# import sheepSaymon
 import laim_logging as ll
 ll.logging.config.dictConfig(ll.DEFAULT_LOGGING)
 import laim_import_saymon_api as li

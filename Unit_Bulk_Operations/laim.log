@@ -1493,3 +1493,79 @@
 20.05.2024 19:01:35.660 INFO <module>(592)  --- 1. Загрузка таблицы csv для именения свойств из форматированного файла
 20.05.2024 19:01:35.671 INFO <module>(607)  --- 2. Загружаем существующие группы сервисов (имена объектов)
 20.05.2024 19:01:35.672 INFO def_refresh_objects(37)  - Loading object tree
+02.09.2024 03:47:58.595 INFO <module>(48) ____________________________________________________________________________________________________
+02.09.2024 03:47:58.595 INFO <module>(49)  - logging initiated
+02.09.2024 03:47:58.926 INFO <module>(265)  - session initiated
+02.09.2024 03:47:58.932 INFO <module>(18)  - api importer initiated
+02.09.2024 03:47:58.940 INFO <module>(18)  - api importer initiated
+02.09.2024 03:47:58.940 INFO <module>(22)  - exporter initiated
+02.09.2024 05:49:30.487 INFO <module>(48) ____________________________________________________________________________________________________
+02.09.2024 05:49:30.488 INFO <module>(49)  - logging initiated
+02.09.2024 05:49:31.261 INFO <module>(265)  - session initiated
+02.09.2024 05:49:31.282 INFO <module>(18)  - api importer initiated
+02.09.2024 05:49:31.308 INFO <module>(18)  - api importer initiated
+02.09.2024 05:49:31.309 INFO <module>(22)  - exporter initiated
+02.09.2024 05:49:53.625 INFO <module>(48) ____________________________________________________________________________________________________
+02.09.2024 05:49:53.625 INFO <module>(49)  - logging initiated
+02.09.2024 05:49:53.917 INFO <module>(265)  - session initiated
+02.09.2024 05:49:53.924 INFO <module>(18)  - api importer initiated
+02.09.2024 05:49:53.931 INFO <module>(18)  - api importer initiated
+02.09.2024 05:49:53.932 INFO <module>(22)  - exporter initiated
+02.09.2024 05:49:53.948 INFO <module>(592)  --- 1. Загрузка таблицы csv для именения свойств из форматированного файла
+02.09.2024 05:49:53.959 INFO <module>(607)  --- 2. Загружаем существующие группы сервисов (имена объектов)
+02.09.2024 05:49:53.959 INFO def_refresh_objects(37)  - Loading object tree
+02.09.2024 05:49:54.090 INFO def_refresh_objects(64)  - Loaded object('s tree)
+02.09.2024 05:49:54.099 INFO <module>(616)  --- 3. Перебор и создание всех отсутствующих групп сервисов
+02.09.2024 05:49:54.611 INFO def_create_group_services(131) В SAYMON или файле скрипта bulk_input отсутствует объект первичной привязки - поле rsm_obj_to_create_under.
+02.09.2024 05:53:07.694 INFO <module>(48) ____________________________________________________________________________________________________
+02.09.2024 05:53:07.695 INFO <module>(49)  - logging initiated
+02.09.2024 05:53:07.990 INFO <module>(265)  - session initiated
+02.09.2024 05:53:07.998 INFO <module>(18)  - api importer initiated
+02.09.2024 05:53:08.008 INFO <module>(18)  - api importer initiated
+02.09.2024 05:53:08.008 INFO <module>(22)  - exporter initiated
+02.09.2024 05:53:08.014 INFO <module>(592)  --- 1. Загрузка таблицы csv для именения свойств из форматированного файла
+02.09.2024 05:53:08.027 INFO <module>(607)  --- 2. Загружаем существующие группы сервисов (имена объектов)
+02.09.2024 05:53:08.028 INFO def_refresh_objects(37)  - Loading object tree
+02.09.2024 05:53:08.126 INFO def_refresh_objects(64)  - Loaded object('s tree)
+02.09.2024 05:53:08.132 INFO <module>(616)  --- 3. Перебор и создание всех отсутствующих групп сервисов
+02.09.2024 05:53:08.617 INFO def_create_group_services(147)  --- Try create object service group:Система мониторинга under 665b3924d0a33e11402f7276
+02.09.2024 05:53:08.617 DEBUG def_create_an_object(287) .....create_an_object - go to create with data - http://127.0.0.1:8080//node/api/objects
+02.09.2024 05:53:08.816 DEBUG def_create_an_object(296) .....create_an_object - object created:{'id': '665b392dd0a33e11402f727d', 'parent_id': ['665b3924d0a33e11402f7276'], 'name': 'Система мониторинга', 'class_id': 30, 'owner_id': '65ec0fae9ae0190220d1c726', 'updated': 1717254445513, 'properties': [], 'operations': [], 'state_id': 1, 'created': 1717254445514, 'last_state_update': 1717254445514, 'tags': [], 'weight': 1, 'child_ids': [], 'child_link_ids': [], 'child_ref_ids': [], 'geoposition': [], 'object_groups': [], 'entityType': 1}
+02.09.2024 05:53:08.816 DEBUG def_create_an_object(299) .....create_an_object - {'name': 'Система мониторинга', 'id': '665b392dd0a33e11402f727d'}
+02.09.2024 05:53:08.840 INFO def_create_group_services(147)  --- Try create object service group:СХД under 665b3924d0a33e11402f7276
+02.09.2024 05:53:08.840 DEBUG def_create_an_object(287) .....create_an_object - go to create with data - http://127.0.0.1:8080//node/api/objects
+02.09.2024 05:53:09.031 DEBUG def_create_an_object(296) .....create_an_object - object created:{'id': '665b392dd0a33e11402f7284', 'parent_id': ['665b3924d0a33e11402f7276'], 'name': 'СХД', 'class_id': 30, 'owner_id': '65ec0fae9ae0190220d1c726', 'updated': 1717254445729, 'properties': [], 'operations': [], 'state_id': 1, 'created': 1717254445729, 'last_state_update': 1717254445729, 'tags': [], 'weight': 1, 'child_ids': [], 'child_link_ids': [], 'child_ref_ids': [], 'geoposition': [], 'object_groups': [], 'entityType': 1}
+02.09.2024 05:53:09.031 DEBUG def_create_an_object(299) .....create_an_object - {'name': 'СХД', 'id': '665b392dd0a33e11402f7284'}
+02.09.2024 05:53:09.055 INFO def_create_group_services(147)  --- Try create object service group:БД under 665b3924d0a33e11402f7276
+02.09.2024 05:53:09.056 DEBUG def_create_an_object(287) .....create_an_object - go to create with data - http://127.0.0.1:8080//node/api/objects
+02.09.2024 05:53:09.237 DEBUG def_create_an_object(296) .....create_an_object - object created:{'id': '665b392dd0a33e11402f728b', 'parent_id': ['665b3924d0a33e11402f7276'], 'name': 'БД', 'class_id': 30, 'owner_id': '65ec0fae9ae0190220d1c726', 'updated': 1717254445943, 'properties': [], 'operations': [], 'state_id': 1, 'created': 1717254445943, 'last_state_update': 1717254445943, 'tags': [], 'weight': 1, 'child_ids': [], 'child_link_ids': [], 'child_ref_ids': [], 'geoposition': [], 'object_groups': [], 'entityType': 1}
+02.09.2024 05:53:09.238 DEBUG def_create_an_object(299) .....create_an_object - {'name': 'БД', 'id': '665b392dd0a33e11402f728b'}
+02.09.2024 05:53:09.261 INFO def_create_group_services(147)  --- Try create object service group:Виртуализация under 665b3924d0a33e11402f7276
+02.09.2024 05:53:09.261 DEBUG def_create_an_object(287) .....create_an_object - go to create with data - http://127.0.0.1:8080//node/api/objects
+02.09.2024 05:53:09.500 DEBUG def_create_an_object(296) .....create_an_object - object created:{'id': '665b392ed0a33e11402f7292', 'parent_id': ['665b3924d0a33e11402f7276'], 'name': 'Виртуализация', 'class_id': 30, 'owner_id': '65ec0fae9ae0190220d1c726', 'updated': 1717254446151, 'properties': [], 'operations': [], 'state_id': 1, 'created': 1717254446151, 'last_state_update': 1717254446151, 'tags': [], 'weight': 1, 'child_ids': [], 'child_link_ids': [], 'child_ref_ids': [], 'geoposition': [], 'object_groups': [], 'entityType': 1}
+02.09.2024 05:53:09.501 DEBUG def_create_an_object(299) .....create_an_object - {'name': 'Виртуализация', 'id': '665b392ed0a33e11402f7292'}
+02.09.2024 05:53:09.501 INFO <module>(624)  --- 4. Загружаем существующие группы сервисов (имена объектов)
+02.09.2024 05:53:09.502 INFO def_refresh_objects(37)  - Loading object tree
+02.09.2024 05:53:09.607 INFO def_refresh_objects(64)  - Loaded object('s tree)
+02.09.2024 05:53:09.611 INFO <module>(633)  --- --- 5. Перебор и создание отсутствующих сервисов и их свойств
+02.09.2024 05:53:09.672 INFO def_create_services(202)  --- Create object service: SolarWinds
+02.09.2024 05:53:09.672 DEBUG def_create_an_object(287) .....create_an_object - go to create with data - http://127.0.0.1:8080//node/api/objects
+02.09.2024 05:53:09.868 DEBUG def_create_an_object(296) .....create_an_object - object created:{'id': '665b392ed0a33e11402f7299', 'parent_id': ['665b392dd0a33e11402f727d'], 'name': 'SolarWinds', 'class_id': 15, 'properties': [], 'owner_id': '65ec0fae9ae0190220d1c726', 'updated': 1717254446566, 'operations': [], 'state_id': 1, 'created': 1717254446566, 'last_state_update': 1717254446567, 'tags': [], 'weight': 1, 'child_ids': [], 'child_link_ids': [], 'child_ref_ids': [], 'geoposition': [], 'object_groups': [], 'entityType': 1}
+02.09.2024 05:53:09.868 DEBUG def_create_an_object(299) .....create_an_object - {'name': 'SolarWinds', 'id': '665b392ed0a33e11402f7299'}
+02.09.2024 05:53:09.888 INFO def_create_services(202)  --- Create object service: Ленточная библиотека
+02.09.2024 05:53:09.888 DEBUG def_create_an_object(287) .....create_an_object - go to create with data - http://127.0.0.1:8080//node/api/objects
+02.09.2024 05:53:10.071 DEBUG def_create_an_object(296) .....create_an_object - object created:{'id': '665b392ed0a33e11402f72a0', 'parent_id': ['665b392dd0a33e11402f7284'], 'name': 'Ленточная библиотека', 'class_id': 15, 'properties': [], 'owner_id': '65ec0fae9ae0190220d1c726', 'updated': 1717254446775, 'operations': [], 'state_id': 1, 'created': 1717254446776, 'last_state_update': 1717254446776, 'tags': [], 'weight': 1, 'child_ids': [], 'child_link_ids': [], 'child_ref_ids': [], 'geoposition': [], 'object_groups': [], 'entityType': 1}
+02.09.2024 05:53:10.071 DEBUG def_create_an_object(299) .....create_an_object - {'name': 'Ленточная библиотека', 'id': '665b392ed0a33e11402f72a0'}
+02.09.2024 05:53:10.092 INFO def_create_services(202)  --- Create object service: КСУИТ
+02.09.2024 05:53:10.093 DEBUG def_create_an_object(287) .....create_an_object - go to create with data - http://127.0.0.1:8080//node/api/objects
+02.09.2024 05:53:10.315 DEBUG def_create_an_object(296) .....create_an_object - object created:{'id': '665b392ed0a33e11402f72a7', 'parent_id': ['665b392dd0a33e11402f728b'], 'name': 'КСУИТ', 'class_id': 15, 'properties': [], 'owner_id': '65ec0fae9ae0190220d1c726', 'updated': 1717254446982, 'operations': [], 'state_id': 1, 'created': 1717254446983, 'last_state_update': 1717254446983, 'tags': [], 'weight': 1, 'child_ids': [], 'child_link_ids': [], 'child_ref_ids': [], 'geoposition': [], 'object_groups': [], 'entityType': 1}
+02.09.2024 05:53:10.316 DEBUG def_create_an_object(299) .....create_an_object - {'name': 'КСУИТ', 'id': '665b392ed0a33e11402f72a7'}
+02.09.2024 05:53:10.338 INFO def_create_services(202)  --- Create object service: Целевая инфраструктура ТК
+02.09.2024 05:53:10.339 DEBUG def_create_an_object(287) .....create_an_object - go to create with data - http://127.0.0.1:8080//node/api/objects
+02.09.2024 05:53:10.533 DEBUG def_create_an_object(296) .....create_an_object - object created:{'id': '665b392fd0a33e11402f72ae', 'parent_id': ['665b392ed0a33e11402f7292'], 'name': 'Целевая инфраструктура ТК', 'class_id': 15, 'properties': [], 'owner_id': '65ec0fae9ae0190220d1c726', 'updated': 1717254447230, 'operations': [], 'state_id': 1, 'created': 1717254447231, 'last_state_update': 1717254447231, 'tags': [], 'weight': 1, 'child_ids': [], 'child_link_ids': [], 'child_ref_ids': [], 'geoposition': [], 'object_groups': [], 'entityType': 1}
+02.09.2024 05:53:10.534 DEBUG def_create_an_object(299) .....create_an_object - {'name': 'Целевая инфраструктура ТК', 'id': '665b392fd0a33e11402f72ae'}
+02.09.2024 05:53:10.534 INFO <module>(641)  --- 6. Загружаем существующие группы сервисов (имена объектов)
+02.09.2024 05:53:10.535 INFO def_refresh_objects(37)  - Loading object tree
+02.09.2024 05:53:10.634 INFO def_refresh_objects(64)  - Loaded object('s tree)
+02.09.2024 05:53:10.638 INFO <module>(654)  --- 9. Поиск по имени хостов. Создаем по списку, что не обнаружилось. Результат в ./reports/host_added.csv
+02.09.2024 05:53:10.742 INFO <module>(715)  --- Create: №1 object: SPB99-IT-SMUNPM

@@ -29,7 +29,7 @@ ll.logging.config.dictConfig(ll.DEFAULT_LOGGING)
 import laim_import_saymon_api as li
 import laim_export_saymon_api as le
 
-from def_gpn_bulk import def_refresh_objects, def_create_group_services,def_create_services,def_custom_oms_VM_pin, def_custom_msk_VM_pin, def_custom_vm_pin, def_auto_ping_discovered_hosts
+from def_gpn_bulk import def_refresh_objects, def_create_group_services,def_create_services, def_custom_oms_VM_pin, def_custom_msk_VM_pin, def_custom_vm_pin, def_auto_ping_discovered_hosts
 
 #0.Метрики работы с объектами для вывода результатов работы модуля
 
